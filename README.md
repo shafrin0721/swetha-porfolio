@@ -1,57 +1,74 @@
-# 📁 Mary Swetha Cajitan — Data Science Portfolio  
+# 👋 Hi! I'm Mary Swetha Cajitan
 
-This portfolio showcases my work in **Data Analytics, Data Science fundamentals, and Visualization** using Python, SQL, and Power BI.
 
----
+🎓 **BSc (Hons) in Data Science — In Progress**
+📊 **Higher National Diploma in Data Analytics — Completed**
 
-## 📘 About Me  
-I am a Data Science undergraduate with a strong interest in analytical problem-solving, reporting, and visualization. This portfolio highlights my academic-based projects and skills.
 
----
+I’m passionate about turning raw data into meaningful insights using **Python, SQL, Power BI, and statistical analysis**. I enjoy solving analytical problems and creating clean, insightful visualizations.
 
-## 📊 Projects  
-
-### 1️⃣ **Sales Insights — Exploratory Data Analysis**  
-📌 Tools: Python, Pandas, Matplotlib  
-📁 Folder: `/projects/sales-insights`  
-Includes:
-- Cleaned dataset  
-- EDA notebook  
-- Visualizations  
-- Key findings
 
 ---
 
-### 2️⃣ **Data Cleaning & Visualization Project**  
-📌 Tools: Python  
-📁 `/projects/data-cleaning-visualization`  
+
+## 🔧 Skills
+- **Data Cleaning & Preprocessing** (Pandas, NumPy)
+- **Exploratory Data Analysis** (EDA)
+- **Data Visualization** (Matplotlib, Seaborn, Power BI)
+- **Statistical Methods**
+- **Dashboard Design**
+- **Critical Thinking & Problem Solving**
+
+
+**Languages:** English (Fluent), Tamil (Fluent)
+
 
 ---
 
-### 3️⃣ **Power BI Dashboard**  
-📌 Tools: Power BI  
-📁 `/projects/powerbi-dashboard`  
-Includes:
-- .pbix file  
-- Dashboard screenshots  
-- Summary of insights  
+
+## ⭐ Featured Projects
+
+
+### 📊 1. Sales Insights — Exploratory Data Analysis
+Python-based EDA to uncover sales trends, top-performing categories, and customer behavior.
+
+
+🔗 **Project Folder:** `/projects/sales-insights/`
+
 
 ---
 
-## 🎓 Certificates  
-Located in: `/assets/certificates/`
+
+### 📈 2. Data Cleaning & Visualization Project
+Comprehensive cleaning of messy datasets + visual insights.
+
+
+🔗 **Project Folder:** `/projects/data-cleaning-visualization/`
+
 
 ---
 
-## 📄 Resume  
-Download here: `/assets/resume.pdf`
+
+### 📌 3. Power BI Dashboard — Business Insights
+Interactive Power BI dashboard analyzing category-based performance.
+
+
+🔗 **Project Folder:** `/projects/powerbi-dashboard/`
+
 
 ---
 
-## 📫 Contact  
-- 📧 Email: **swethacajitan@gmail.com**  
-- 📞 Phone: **+94 76 632 9845**
+
+## 🎓 Certificates
+- Python Essentials 1 — Cisco Networking Academy
+- Data Analytics Essentials — Cisco Networking Academy
+- Introduction to Data Science — Cisco Networking Academy
+- Operating Systems Basics — Cisco Networking Academy
+
 
 ---
 
-## 📌 Repo Structure
+
+## 📫 Contact
+📧 **Email:** swethacajitan@gmail.com
+📱 **Phone:** +94 76 632 9845
