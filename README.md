@@ -2,6 +2,8 @@
 
 
 🎓 **BSc (Hons) in Data Science — In Progress**
+
+
 📊 **Higher National Diploma in Data Analytics — Completed**
 
 
@@ -72,3 +74,4 @@ Interactive Power BI dashboard analyzing category-based performance.
 ## 📫 Contact
 📧 **Email:** swethacajitan@gmail.com
 📱 **Phone:** +94 76 632 9845
+
