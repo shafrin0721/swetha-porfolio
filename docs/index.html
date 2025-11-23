@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mary Swetha Cajitan — Data Science Portfolio</title>
+  <meta name="description" content="Portfolio of Mary Swetha Cajitan — Data Analytics student. Projects: Sales EDA, Data Cleaning & Visualization, Power BI Dashboard." />
+  <style>
+    :root{
+      --bg:#f6fbff;
+      --card:#ffffff;
+      --accent:#0b6efd; /* ocean blue */
+      --muted:#6b7280;
+      --radius:12px;
+      --maxw:980px;
+      --gap:18px;
+    }
+    *{box-sizing:border-box}
+    body{
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background:var(--bg);
+      color:#0f172a;
+      margin:24px;
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{width:100%;max-width:var(--maxw);padding:28px}
+    header{display:flex;gap:22px;align-items:center}
+    .avatar{
+      width:120px;height:120px;border-radius:50%;flex:0 0 120px;
+      background:linear-gradient(135deg,#cfe8ff, #dff4ff);
+      display:grid;place-items:center;box-shadow:0 6px 18px rgba(11,110,253,0.08);
+    }
+    .avatar svg{width:78px;height:78px}
+    h1{margin:0;font-size:28px}
+    .sub{color:var(--muted);margin:6px 0 0}
+    .row{display:flex;gap:var(--gap);flex-wrap:wrap;margin-top:18px}
+    .card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 6px 24px rgba(12,34,58,0.06);flex:1}
+    .card.small{flex:0 0 260px}
+    .lead{color:var(--muted);margin-top:8px}
+    .btn{
+      display:inline-block;background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:600;
+      box-shadow:0 6px 18px rgba(11,110,253,0.12);
+    }
+    .btn.ghost{background:transparent;color:var(--accent);border:1px solid rgba(11,110,253,0.08)}
+    nav ul{display:flex;gap:10px;list-style:none;padding:0;margin:0}
+    nav a{color:var(--muted);text-decoration:none;font-weight:600}
+    .projects{margin-top:10px}
+    .project-item{padding:12px;border-radius:10px;margin-bottom:10px;background:linear-gradient(180deg,rgba(11,110,253,0.02),transparent)}
+    .project-item h3{margin:0;font-size:16px}
+    .meta{color:var(--muted);font-size:13px;margin-top:6px}
+    .two-col{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
+    .cert-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+    .cert{background:#f8fbff;border-radius:8px;padding:8px;display:grid;place-items:center;height:90px}
+    .cert img{max-width:100%;max-height:100%;object-fit:contain}
+    .resume-preview{border-radius:8px;overflow:hidden;border:1px solid rgba(2,6,23,0.04)}
+    footer{margin-top:26px;color:var(--muted);font-size:13px;text-align:center}
+    @media (max-width:880px){
+      .two-col{grid-template-columns:1fr}
+      .avatar{width:96px;height:96px;flex:0 0 96px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+          <div class="avatar">
+            <img src="../assets/img/profile.png" alt="Mary Swetha Cajitan" style="width:90px;height: 90px;border-radius:50%;object-fit:cover;box-shadow:0 6px 18px rgba(0,0,0,0.12);">
+        </div>
+
+      <div style="flex:1">
+        <h1>Mary Swetha Cajitan</h1>
+        <div class="sub">Data Science Undergraduate • Data Analytics • Python • Power BI</div>
+        <div class="lead">I turn messy data into clear insights — EDA, visualization, and dashboards for real business questions.</div>
+
+        <div style="margin-top:12px;display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+          <!-- Resume download points to the uploaded file path -->
+          <a class="btn" href="../assets/Mary swetha cajitan.pdf" download>⬇ Download Resume</a>
+          <a class="btn ghost" href="mailto:swethacajitan@gmail.com">✉ Email</a>
+          <nav>
+            <ul>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#certs">Certificates</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="two-col" style="margin-top:18px">
+      <main>
+        <section id="projects" class="card">
+          <h2 style="margin:0 0 8px 0">Selected Projects</h2>
+          <p class="lead">Minimal, focused explanations with links to each project folder in this repo.</p>
+
+          <div class="projects">
+            <div class="project-item">
+              <h3>Sales Insights — Exploratory Data Analysis</h3>
+              <div class="meta">Python • Pandas • Matplotlib • Jupyter Notebook</div>
+              <p class="lead" style="margin-top:8px">Cleaned sales dataset, analyzed monthly trends, top categories, and regional performance. <a href="../projects/sales-insights/sales_insights.html">Open project →</a></p>
+            </div>
+
+            <div class="project-item">
+              <h3>Data Cleaning & Visualization</h3>
+              <div class="meta">Python • Data Cleaning • Visualization</div>
+              <p class="lead" style="margin-top:8px">Worked with messy, real-world data — missing values, duplicates, outliers, and created visual storytelling charts. <a href="../projects/data-cleaning-visualization/data_cleaning.html">Open project →</a></p>
+            </div>
+
+            <div class="project-item">
+              <h3>Power BI Dashboard — Business Insights</h3>
+              <div class="meta">Power BI • Dashboard Design • KPI Analysis</div>
+              <p class="lead" style="margin-top:8px">Interactive dashboard showing sales KPIs and category breakdowns. Includes .pbix and screenshots. <a href="../projects/powerbi-dashboard/powerbi_dashboard.html">Open project →</a></p>
+            </div>
+          </div>
+        </section>
+
+        <section id="certs" class="card" style="margin-top:18px;">
+            <h2 style="margin:0 0 8px 0">Certificates</h2>
+            <p class="lead">Gallery + quick list (click an image to view larger).</p>
+            <div class="cert-grid" style="margin-top:12px; display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:12px;">
+                <div class="cert" style="overflow:hidden; border-radius:8px; cursor:pointer; transition: transform 0.3s;">
+                    <img alt="Certificate 1" src="../assets/certificates/cert1.jpg" style="width:100%; height:90px; object-fit:contain;">
+                </div>
+    
+                <div class="cert" style="overflow:hidden; border-radius:8px; cursor:pointer; transition: transform 0.3s;">
+                    <img alt="Certificate 2" src="../assets/certificates/cert02.jpg" style="width:100%; height:90px; object-fit:contain;">
+                </div>
+            </div>
+
+            <div style="margin-top:12px;">
+                <strong>List:</strong>
+                    <ul style="margin-top:6px; color:var(--muted);">
+                        <li>Python Essentials 1 — Cisco Networking Academy</li>
+                        <li>Data Analytics Essentials — Cisco Networking Academy</li>
+                        <li>Introduction to Data Science — Cisco Networking Academy</li>
+                        <li>Operating Systems Basics — Cisco Networking Academy</li>
+                    </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="card" style="margin-top:18px">
+          <h2 style="margin:0 0 8px 0">Contact</h2>
+          <p class="lead">Email: <a href="mailto:swethacajitan@gmail.com">swethacajitan@gmail.com</a></p>
+          <p class="lead">Phone: +94 76 632 9845</p>
+          <p class="lead">Location: Colombo, Sri Lanka</p>
+        </section>
+      </main>
+
+      <aside>
+        <div class="card small">
+          <h4 style="margin-top:0">Resume Preview</h4>
+          <div class="resume-preview">
+            <!-- Small embedded PDF preview (browser support varies) -->
+            <object data="../assets/Mary swetha cajitan.pdf" type="application/pdf" width="100%" height="260">
+              <p>Resume preview not supported in this browser. <a href="../assets/Mary swetha cajitan.pdf" download>Download Resume</a></p>
+            </object>
+          </div>
+
+          <div style="margin-top:12px">
+            <a class="btn" href="../assets/Mary swetha cajitan.pdf" download>⬇ Download Resume (PDF)</a>
+          </div>
+        </div>
+
+        <div class="card small" style="margin-top:12px">
+          <h4 style="margin-top:0">Quick Skills</h4>
+          <ul style="margin:8px 0 0 18px;color:var(--muted)">
+            <li>Python, Pandas, NumPy</li>
+            <li>Matplotlib, Seaborn</li>
+            <li>Power BI</li>
+            <li>SQL (basic)</li>
+            <li>Data Cleaning & EDA</li>
+          </ul>
+        </div>
+
+        <div class="card small" style="margin-top:12px">
+          <h4 style="margin-top:0">Education</h4>
+          <div style="color:var(--muted);font-size:14px">
+            ESOFT Metro Campus — HND Data Analytics (2023–2025)<br>
+            BSc (Hons) Data Science (Top-up) — In progress
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <div>Made by Mary Swetha Cajitan — © <span id="yr"></span></div>
+    </footer>
+  </div>
+
+  <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
